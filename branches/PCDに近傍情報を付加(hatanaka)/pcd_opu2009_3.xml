@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><PCD>
+<Panoramas startdir="335" startpano="pano259">
+
+<Panorama panoid="pano10000">
+<img height="430" src="elevator.jpg" width="1500"/>
+<coords lat="34.69232180282556" lng="133.77924352884293"/>
+<direction north="560"/>
+<chpanos>
+<chpano panoid="pano816"><range end="277.0" start="217.0"/><fov base="100.0" next="105.0"/><correct pan="180.0" tilt="0.0"/></chpano>
+<chpano panoid="pano6000"><range end="216.0" start="156.0"/><fov base="100.0" next="105.0"/><correct pan="120.0" tilt="0.0"/></chpano>
+</chpanos>
+</Panorama>
+
+</Panoramas>
+</PCD>
