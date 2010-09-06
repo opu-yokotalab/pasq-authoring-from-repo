@@ -12,12 +12,15 @@ public class TheComparator implements Comparator {
 
     // StringŒ^‚Ì—v‘f‚ğDoubleŒ^‚Æ‚İ‚È‚µ‚Ä¸‡‚Éƒ\[ƒg
     public int compare(Object a, Object b) {
-    	
-        String[] arrStrA = (String[]) a;
-        String[] arrStrB = (String[]) b;
-        double dblA = Double.parseDouble(arrStrA[index]);
-        double dblB = Double.parseDouble(arrStrB[index]);
-        return Double.compare(dblA,dblB);
-    }
+        String[] dblA = (String[]) a;
+        String[] dblB = (String[]) b;
 
+        if(Double.parseDouble(dblA[index]) < Double.parseDouble(dblB[index])){
+        	return (-1);
+        }else if(Double.parseDouble(dblA[index]) > Double.parseDouble(dblB[index])){
+        	return (1);
+        }else{
+        	return (0);
+        }
+    }
 }
